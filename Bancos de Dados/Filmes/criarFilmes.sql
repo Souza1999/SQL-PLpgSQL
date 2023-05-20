@@ -1,10 +1,10 @@
 CREATE TABLE Filme (
-   	codFilme   	SERIAL         NOT NULL,
-   	titulo      VARCHAR(25),
-   	ano         INTEGER,
-   	duracao		INTEGER,
-   	codCateg	   INTEGER,
-   	codEst     	INTEGER
+   	cod      FilmeSERIAL    NOT NULL,
+   	titulo   VARCHAR(25),
+   	ano      INTEGER,
+   	duracao  INTEGER,
+   	codCateg INTEGER,
+   	codEst   INTEGER
 );
 
 
