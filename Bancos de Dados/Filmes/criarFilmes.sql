@@ -1,7 +1,7 @@
 CREATE TABLE Filme (
    	codFilme   	SERIAL         NOT NULL,
    	titulo      VARCHAR(25),
-   	ano			INTEGER,
+   	ano         INTEGER,
    	duracao		INTEGER,
    	codCateg	   INTEGER,
    	codEst     	INTEGER
