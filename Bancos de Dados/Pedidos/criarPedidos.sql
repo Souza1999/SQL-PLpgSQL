@@ -1,12 +1,12 @@
 CREATE TABLE Cliente (
-CodCLI Serial PRIMARY KEY,
-Nome Varchar(30),
-Endereco Varchar(30),
-Telefone Varchar(12),
-InscE Varchar(10),
-CNPJ Varchar(10),
-Cidade Varchar(15),
-UF Varchar(2)
+codCLI Serial PRIMARY KEY,
+nome Varchar(30),
+endereco Varchar(30),
+telefone Varchar(12),
+inscE Varchar(10),
+cnpj Varchar(10),
+cidade Varchar(15),
+uf    Varchar(2)
 );
 
 CREATE TABLE Produto (
