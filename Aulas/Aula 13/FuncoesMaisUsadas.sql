@@ -1,3 +1,4 @@
+
 -- ********** FUNÇÕES PARA NÚMEROS **********
 -- ABS(n): seleciona o valor absoluto (desconsidera o sinal).
 SELECT ABS(-30);
@@ -21,7 +22,7 @@ SELECT FLOOR(99.9);
 
 
 -- ********** FUNÇÕES PARA CARACTERES **********
--- CONCAT(a,b) ou ||
+-- CONCAT(a,b) ou ||: concatena strings.
 SELECT	CONCAT(CONCAT(primeironome, ' é '), cargo)
 FROM	empregado
 WHERE	matricula = 12;
@@ -36,16 +37,23 @@ SELECT	primeironome || ' é ' || cargo
 FROM	empregado
 WHERE	matricula = 6;
 
+
 -- INITCAP(s): retorna a primeira string maiúscula e as restantes minúsculas.
 SELECT INITCAP('initcap');
 SELECT INITCAP('iNITICAP');
 
 -- LOWER 
+
 -- REPLACE
+
 -- SUBSTR
+
 -- UPPER
+
 -- LENGHT
+
 -- RPAD
+
 
 -- ********** FUNÇÕES DE CONVERSÃO **********
 --
@@ -58,6 +66,7 @@ SELECT INITCAP('iNITICAP');
 
 --
 
+
 -- ********** FUNÇÕES DE DATAS **********
 
 --
@@ -69,6 +78,7 @@ SELECT INITCAP('iNITICAP');
 --
 
 --
+
 
 -- ********** FUNÇÕES GENÉRICAS **********
 
