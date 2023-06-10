@@ -12,7 +12,14 @@ SELECT CEIL(16.1);
 SELECT FLOOR(99.0);
 SELECT FLOOR(99.9);
 
--- MOD
+-- MOD(a1,a2): retorna o resto de uma divisão.
+SELECT MOD(10,3);
+SELECT MOD(10,4);
+SELECT MOD(10,5);
+-- Quando o divisor é maior que o dividendo, é retornado o dividendo. 
+SELECT MOD(10,100);	
+SELECT MOD(8,56);	
+SELECT MOD(47,48);
 
 -- POWER
 
