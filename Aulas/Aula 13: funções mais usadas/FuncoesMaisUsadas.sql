@@ -21,11 +21,25 @@ SELECT MOD(10,100);
 SELECT MOD(8,56);	
 SELECT MOD(47,48);
 
--- POWER
+-- POWER(a1,a2): eleva o primeiro número ao segundo número.
+SELECT POWER(2,3);
+SELECT POWER(3,2);
+SELECT POWER(5,4);
 
--- ROUND
+-- ROUND(n,a): arredonda o primeiro número (n) em quantas casas decimais forem escolhidas(a)
+-- E se se não for escolhida a quantidade de casas decimais, então é 0, isto é, o número será inteiro.
+SELECT ROUND(16.193,1);
+SELECT ROUND(16.193,2);
+SELECT ROUND(16.193,5);
+SELECT ROUND(9.4);
+SELECT ROUND(9.6);
+SELECT ROUND(9.5);
 
--- TRUNC
+-- TRUNC(n,a): não aredonda, apenas mantém o número como está com a quantidade de casas decimais definidas.
+SELECT TRUNC(42.8495);
+SELECT TRUNC(42.8495,2);
+SELECT TRUNC(42.8495,5);
+SELECT TRUNC(42.8495,7)
 
 
 -- ********** FUNÇÕES PARA CARACTERES **********
