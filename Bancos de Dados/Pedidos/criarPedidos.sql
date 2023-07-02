@@ -1,3 +1,5 @@
+-- Organizar esse código
+
 CREATE TABLE Cliente (
 codCLI Serial PRIMARY KEY,
 nome Varchar(30),
