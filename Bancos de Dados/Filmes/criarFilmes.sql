@@ -1,5 +1,5 @@
 CREATE TABLE Filme (
-   cod      FilmeSERIAL    NOT NULL,
+   codFilme   SERIAL   NOT NULL,
    titulo   VARCHAR(25),
    ano      INTEGER,
    duracao  INTEGER,
@@ -31,7 +31,7 @@ CREATE TABLE Categoria (
 
 CREATE TABLE Personagem (
    codArt   INTEGER        NOT NULL,
-   codFilme INETGER        NOT NULL,
+   codFilme INTEGER        NOT NULL,
    nomePers VARCHAR(25),
    cache_   NUMERIC(15,2)
 );
